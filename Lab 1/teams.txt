@@ -1,0 +1,21 @@
+Exercise 1.2
+1. a. Junior
+   b. Information Systems
+   c. CS 112 - C+, didn't take CS 212
+2. a. I haven't developed any specific JS applications
+      I have some experience with SQL - we use Microsoft SQL Server where I work (in IT) and I've also done some setup of PostgreSQL & MongoDB. I'm not an expert in SQL but I would say I know the basics.
+   b. I used Slack once or twice a long time ago, if I remember it's a bit like Discord which I use daily
+      I use Trello at work in CIT for my projects along with all of my homework assignments.
+      I've been using Git/GitHub for around 3 years now. I like to put anything I find worthwhile up on GitHub - my CS/IS work, linux configs for testing, my website, etc.
+   c. Personal Expense Tracker
+3. a. Personality Traits
+  - Openness
+  - Conscientiousness
+  - Extraversion (don't know why it picked this one, I'm more of an introvert)
+  - Agreeableness
+  - Neuroticism
+   b. I'm fine with working with anyone
+4. I'm more of an independent person when it comes to work and , but I'm trying my best to work with teams.
+
+
+

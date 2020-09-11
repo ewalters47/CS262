@@ -1,0 +1,3 @@
+Exercise 1.1
+1. Personal expense tracker - keep track of transactions (probably manually for now, although I found a cool application called Plaid that can tie their APIs into your app). Would be neat to inlcude types of reports like total/avg monthly spending, etc.
+2. A mobile version of the website PCPartPicker - pick computer parts, check prices and compatibility between different components.
