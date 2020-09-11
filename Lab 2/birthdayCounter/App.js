@@ -20,6 +20,7 @@ export default function App() {
         <View style={styles.buttonContainer}>
           <Button title='birthday' onPress={() => setAge(age + 1)}/>
         </View>
+
       </View>
 
   );
