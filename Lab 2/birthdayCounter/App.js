@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TextInput, Button, FlatList} from 'react-native
 
 export default function App() {
   const [name, setName] = useState('Ethan');
-  const [birthdays, newAge] = useState(5);
+  const [age, setAge] = useState(0);
 
   return (
       <View style={styles.container}>
@@ -15,10 +15,10 @@ export default function App() {
             onChangeText={(val) => setName(val)}
         />
 
-        <Text>{name} is {birthdays} years old</Text>
+        <Text>{name} is {age} years old</Text>
 
         <View style={styles.buttonContainer}>
-          <Button title='birthday' onPress={() => newAge(1)}/>
+          <Button title='birthday' onPress={() => setAge(age + 1)}/>
         </View>
       </View>
 
