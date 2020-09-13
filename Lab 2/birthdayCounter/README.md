@@ -1,0 +1,5 @@
+- React component is "App"
+- Prop is alignItems, state would be name, age
+- Curly braces are for letting JSX know to interpret the contents as JavaScript
+- clickHandler
+- It doesn't use HTML/CSS
