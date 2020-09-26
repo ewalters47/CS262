@@ -6,8 +6,6 @@ export default function AddTodo({ submitHandler }) {
 
   const changeHandler = (val) => {
       setText(val);
-
-
   }
 
   return (
