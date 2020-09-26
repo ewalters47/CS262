@@ -10,7 +10,6 @@ export default function AddTodo({ submitHandler }) {
 
   }
 
-
   return (
     <View>
       <TextInput

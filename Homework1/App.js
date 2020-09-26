@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, FlatList, Alert, TouchableWithoutFeedback, Keyboard, Text } from 'react-native';
+import { View, FlatList, TouchableWithoutFeedback} from 'react-native';
 import Header from './components/header';
 import TodoItem from './components/todoItem';
 import AddTodo from './components/addTodo';
@@ -45,5 +45,3 @@ export default function App() {
     </TouchableWithoutFeedback>
   );
 }
-
-

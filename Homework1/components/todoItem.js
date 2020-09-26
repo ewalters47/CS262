@@ -1,6 +1,5 @@
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
 
 export default function TodoItem({ item, pressHandler }) {
   return (
