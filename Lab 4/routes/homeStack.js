@@ -13,6 +13,11 @@ export default function HomeStack() {
                 component={Home}
                 options={{title: 'GameZone'}}
             />
+            <Stack.Screen
+                name={"ReviewDetails"}
+                component={ReviewDetails}
+                options={{title: 'Review Details'}}
+            />
         </Stack.Navigator>
     );
 };
