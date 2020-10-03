@@ -12,7 +12,7 @@ export default function App() {
     return (
         <Drawer.Navigator initialRouteName="Home">
             <Drawer.Screen name="Home" component={Home} />
-            <Drawer.Screen name="About" component={About} />
+            <Drawer.Screen name="About" component={About}/>
         </Drawer.Navigator>
     );
 };

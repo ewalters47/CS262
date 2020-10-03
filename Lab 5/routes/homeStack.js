@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
+import Header from'../shared/header';
 
-import Header from '../shared/header';
 import Home from '../screens/home';
 import ReviewDetails from '../screens/reviewDetails';
 
@@ -15,6 +15,7 @@ export default function HomeStack( {navigation} ) {
                 name="GameZone"
                 component={Home}
                 options={{
+                    headerTitleAlign: 'center',
                     headerLeft: () =>  <Header navigation={navigation} />
                 }}
             />
