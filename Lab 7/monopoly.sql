@@ -4,6 +4,8 @@
 -- @author kvlinden
 -- @version Summer, 2015
 --
+-- Added another table for player cash, houses, hotels, piece location 
+-- Ethan Walters 10/18/2020
 
 -- Drop previous versions of the tables if they they exist, in reverse order of foreign keys.
 DROP TABLE IF EXISTS PlayerGame;
