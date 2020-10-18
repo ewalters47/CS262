@@ -1,2 +1,1 @@
-This sample Monopoly database and set of queries is used in Calvin College
-CS 262 [lab 7](https://cs.calvin.edu/courses/cs/262/kvlinden/07is/lab.html).
+Updated the schema for the monopoly database as required by Lab 7 Exercise 7.2
