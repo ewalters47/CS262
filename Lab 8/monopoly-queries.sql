@@ -74,4 +74,10 @@ ON Player.ID = PlayerGame.PlayerID
 WHERE Player.name = 'The King'
 ORDER BY score DESC;
 
+-- Retrieve the name of the winner of the game played on 2006-06-28 13:20:00.
+Select name
+FROM Player
+INNER JOIN Game
+ON Player.ID = Game.ID
+WHERE time = '2006-06-28 13:20:00';
 
