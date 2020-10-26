@@ -1,0 +1,1 @@
+Updated the schema for the monopoly database as required by Lab 7 Exercise 7.2
