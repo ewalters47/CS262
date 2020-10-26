@@ -68,16 +68,21 @@ WHERE emailAddress LIKE '%gmail%';
 
 -- Retrieve all “The King”’s game scores in decreasing order.
 Select score
-FROM Player
-INNER JOIN PlayerGame
-ON Player.ID = PlayerGame.PlayerID
+FROM Player, PlayerGame
 WHERE Player.name = 'The King'
 ORDER BY score DESC;
 
 -- Retrieve the name of the winner of the game played on 2006-06-28 13:20:00.
-Select name
-FROM Player
-INNER JOIN Game
-ON Player.ID = Game.ID
-WHERE time = '2006-06-28 13:20:00';
+Select *
+FROM Game, Player, PlayerGame
+WHERE Game.time = '2006-06-28 13:20:00'
+AND PlayerGame.GameID = Game.ID
+AND PlayerGame.PlayerID = Player.ID
+ORDER BY score DESC
+LIMIT 1;
 
+-- 8.2 c
+-- Selects players with the same name by lesser ID value.
+
+-- 8.2 d
+-- Maybe to compare rows in the same table.
