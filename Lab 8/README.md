@@ -1,1 +1,1 @@
-Updated the schema for the monopoly database as required by Lab 7 Exercise 7.2
+Includes single and multiple table SQL queries required by Lab 8 Exercise 8.1 and 8.2
