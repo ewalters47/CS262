@@ -10,6 +10,8 @@
 - POST
 - DELETE
 
-##### Nullipotent #####: action has no side effects - performing it multiple times is the same as performing it zero times.
+##### Nullipotent #####
+Action has no side effects - performing it multiple times is the same as performing it zero times.
 
-##### Idempotent #####: action has no further side effects after the first time performing it - performing it multiple times is the same as performing it one time.
+##### Idempotent #####
+Action has no further side effects after the first time performing it - performing it multiple times is the same as performing it one time.
