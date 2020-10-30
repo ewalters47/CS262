@@ -8,4 +8,4 @@ The endpoints match Lab 9 and are deployed as:
 - https://emw45-monopoly-service.herokuapp.com/players
 - https://emw45-monopoly-service.herokuapp.com/players/1
 - https://emw45-monopoly-service.herokuapp.com/players/-1 (not found)
-- https://emw45-monopoly-service.herokuapp.com/players (undefined endpoint)
+- https://emw45-monopoly-service.herokuapp.com/players/blob (undefined endpoint)
