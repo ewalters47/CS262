@@ -1,22 +1,11 @@
-# CS 262 Monopoly Webservice
+### CS262 Lab 9
 
-This is the data service application for the [CS 262 sample Monopoly project](https://github.com/calvin-cs262-organization/monopoly-project) 
-and it is deployed here:
-          
-<https://cs262-monopoly-service.herokuapp.com/>
+Monopoly service is deployed on Heroku based on [Lab 9](https://cs.calvin.edu/courses/cs/262/kvlinden/09is/lab.html)
 
-It is based on the standard Heroku with Node.js tutorial.
+The endpoints match Lab 9 and are deployed as:
 
-<https://devcenter.heroku.com/articles/getting-started-with-nodejs>  
-
-The database is relational with the schema specified in the `sql/` sub-directory,
- and is hosted on [ElephantSQL](https://www.elephantsql.com/). The database user
-and password are stored as Heroku configuration variables rather than in this (public) repo.
-
-We implement this sample as a separate repo to simplify Heroku integration, but 
-for lab 9, you can simply submit your code under the standard `cs262/lab09` directory. 
-For the team project, configure your Heroku app to auto-deploy the code from the
-master/main branch of your
-service repo; do this by following the instructions under the &ldquo;Deploy&rdquo; 
-tab in your application in the Heroku dashboard.
- 
+- https://emw45-monopoly-service.herokuapp.com/
+- https://emw45-monopoly-service.herokuapp.com/players
+- https://emw45-monopoly-service.herokuapp.com/players/1
+- https://emw45-monopoly-service.herokuapp.com/players/-1 (not found)
+- https://emw45-monopoly-service.herokuapp.com/players (undefined endpoint)
