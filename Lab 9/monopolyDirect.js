@@ -9,12 +9,16 @@
  *
  * @author: kvlinden
  * @date: Summer, 2020
+ * 
+ * @author: Ethan Walters
+ * @date: 10/30/2020
+ * Changed database connection for Lab 9
  */
 
 // Set up the database connection.
 const pgp = require('pg-promise')();
 const db = pgp({
-    host: "salt.db.elephantsql.com",
+    host: "lallah.db.elephantsql.com",
     port: 5432,
     database: process.env.USER,
     user: process.env.USER,
