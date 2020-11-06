@@ -33,6 +33,7 @@ router.use(express.json());
 
 router.get("/", readHelloMessage);
 router.get("/players", readPlayers);
+router.get("/players", PlayerGame);
 router.get("/players/:id", readPlayer);
 router.put("/players/:id", updatePlayer);
 router.post('/players', createPlayer);
@@ -111,4 +112,17 @@ function deletePlayer(req, res, next) {
         .catch(err => {
             next(err);
         });
+}
+
+function PlayerGame(req, res, next) {
+    db.many(`
+    SELECT * FROM Player, PlayerGame
+    WHERE PlayerGame.gameID = Game.ID
+    AND PlayerGame.playerID = Player.ID;`)
+        .then(data => {
+            res.send(data);
+        })
+        .catch(err => {
+            next(err);
+        })
 }
